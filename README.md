@@ -70,6 +70,14 @@ The `src` folder contains all the necessary code.
 The images folder contain images present in README.md.
 The report and presentation are same as submitted during the endsem project submission.
 
+## Dependencies
+
+In order to run the notebooks, following dependencies are required :
+ 
+* python : 3.8
+* torch
+* gym
+* pygame
 
 ## How to register and make environment?
 
@@ -98,11 +106,10 @@ env_b3 = envs.getBlock(3) # block-3
 
 To train a particular agent, run the corresponding ipynb. Every ipynb registers the environment itself. Every notebook has its first cell as a header which describe the basic overview of that notebook.
 
-## How to render a policy?
+## How to render a policy/env?
 
-
-`rendering.ipynb` has been used to render a learned policy. The demos links are provided at last.
-
+* `demo_agent.ipynb` has been used to render a learned policy. The demos links are provided at last.
+* `rendering.ipynb` can be used to play the game via human agent.
 
 # Methodology And Results
 
