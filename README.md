@@ -125,7 +125,7 @@ The overall results of different algorithms are described in below figure :
 
 # DEMO
 
-The rendering for Q-learning with softmax action select are given below :
+The demo links for policies learned via Q-learning (softmax action select strategy) are given below :
 
 * Block 1 : [Link](https://youtu.be/rFWviu38KWk)
 * Block 2 : [Link](https://youtu.be/NbNzVyUTxm0)
